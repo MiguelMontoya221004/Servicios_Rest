@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path('todos/', views.ToDoList.as_view(), name='list'),
+    path('todos/', views.TodoListCreate.as_view(), name='list'),
 ]
